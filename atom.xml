@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>wk</title>
   
-  
+  <subtitle>你是傻逼</subtitle>
   <link href="/atom.xml" rel="self"/>
   
   <link href="git@github.com:wanghefan/wanghefan.github.io.git/"/>

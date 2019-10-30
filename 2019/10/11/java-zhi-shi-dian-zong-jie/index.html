@@ -4,8 +4,12 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="Hello World, wk">
-    <meta name="description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hex">
+    <meta name="keywords" content="JAVA知识点总结, wk">
+    <meta name="description" content="第二章面向对象1.面向对象：面向对象思想就是把一个项目，一件事情分成更小的项目，每一部分负责什么功能，最后再有这些部分组合成一个整体。
+2.类的创建
+    语法：public class 类名{}
+
+​      File---&gt;new-">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -13,7 +17,7 @@
     <meta name="format-detection" content="telephone=no">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <title>Hello World | wk</title>
+    <title>JAVA知识点总结 | wk</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -304,13 +308,13 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/12.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/14.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
                     <div class="description center-align post-title">
-                        Hello World
+                        JAVA知识点总结
                     </div>
                 </div>
             </div>
@@ -433,21 +437,21 @@
             <div class="post-info">
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2019-10-17
+                    2019-10-11
                 </div>
 
                 
                     
                     <div class="info-break-policy">
                         <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                        73
+                        2.4k
                     </div>
                     
 
                     
                     <div class="info-break-policy">
                         <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                        1 分
+                        9 分
                     </div>
                     
                 
@@ -463,16 +467,437 @@
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><pre class=" language-bash"><code class="language-bash">$ hexo new <span class="token string">"My New Post"</span></code></pre>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><pre class=" language-bash"><code class="language-bash">$ hexo server</code></pre>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><pre class=" language-bash"><code class="language-bash">$ hexo generate</code></pre>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><pre class=" language-bash"><code class="language-bash">$ hexo deploy</code></pre>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
+                <h2 id="第二章面向对象"><a href="#第二章面向对象" class="headerlink" title="第二章面向对象"></a>第二章面向对象</h2><p>1.面向对象：面向对象思想就是把一个项目，一件事情分成更小的项目，每一部分负责什么功能，最后再有这些部分组合成一个整体。</p>
+<p>2.类的创建</p>
+<pre class=" language-java"><code class="language-java">    语法：<span class="token keyword">public</span> <span class="token keyword">class</span> 类名<span class="token punctuation">{</span><span class="token punctuation">}</span>
 
+​      File<span class="token operator">--</span><span class="token operator">-</span><span class="token operator">></span><span class="token keyword">new</span><span class="token operator">--</span><span class="token operator">-</span><span class="token operator">></span><span class="token keyword">class</span><span class="token operator">--</span><span class="token operator">-</span><span class="token operator">></span>类名</code></pre>
+<p>​      </p>
+<p>3.创建对象</p>
+<pre><code>类名 对象名=new 类名();
+
+​      对象名.方法名(); 对象名.属性</code></pre><p>4.构造方法：方法名和类名相同,没有返回值</p>
+<pre><code>     public class 类名{
+
+​         public 类名(){}//主要的做用是初始化操作
+
+​      }</code></pre><p>5.构造方法重载</p>
+<p>（1）构造方法的重载：方法名与类名相同，参数列表不同</p>
+<p>（2）方法的重载：在同一个类中包含了两个或者两个以上的方法，它们的方法名相同，方法的参数个数，顺序，类型不同，则称这个方法被重载了，这个过程称为方法的重载。</p>
+<p>（3）构造方法的作用：用来实现多种初始化行为。</p>
+<pre><code>    public class 类名{
+
+​         public 类名(){}
+
+​         public 类名(String name,int age){}
+
+​      }</code></pre><p>6.构造方法的执行</p>
+<pre><code>     new 类名();---&gt;执行构造方法
+
+​      super();---&gt;执行了父类的构造方法</code></pre><p>7.static静态修饰符</p>
+<p>   （1）含义：static可以用来修饰属性，方法，和代码块。static修饰的变量属于这个类所有，即由这个类创建的所有对象共用一个static变量。通常把static修饰的属性和方法称为类属性（也可以称为类变量），类方法。不使用static修饰的属性和方法属于单个对象，通常称为实例属性，实例方法。</p>
+<p>（2）要点：</p>
+<p>​    1.在加载类的过程中，完成静态变量的内存分配，再执行静态代码块，两者是在创建对象之前执行的。</p>
+<p>​    2.类属性和类方法可以通过类名和对象名访问，实例属性和实例方法只能通过对象名访问。</p>
+<p>​    3.类方法只能访问类属性和其他类方法，</p>
+<p>注意：静态方法中不能使用this和super关键字。</p>
+<p>8.java内存（栈和堆，static，方法区，gc（垃圾回收机制））</p>
+<p>9.八种基本数据类型：</p>
+<pre><code>    byte  short   int   long
+
+    float   double   Boolean   char</code></pre><h2 id="第三章面向对象三大特征—封装"><a href="#第三章面向对象三大特征—封装" class="headerlink" title="第三章面向对象三大特征—封装"></a>第三章面向对象三大特征—封装</h2><h3 id="第三章-面向对象三大特征—封装"><a href="#第三章-面向对象三大特征—封装" class="headerlink" title="第三章 面向对象三大特征—封装"></a>第三章 面向对象三大特征—封装</h3><p>1.封装的概念：封装是指将对象的状态信息隐藏在对象内部，不允许外部程序直接访问对象内部的信息，而是通过该类所提供的方法来实现对内部信息的操作访问。</p>
+<p>2.封装的步骤</p>
+<p>​      1.把属性私有化（private）</p>
+<p>​      2.对这些属性设置get和set方法</p>
+<p>​      3.调用处理这些方法</p>
+<p>3.封装的作用与好处：</p>
+<p>作用：避免一些用一些不合乎常理的操作</p>
+<p>好处：</p>
+<p>（1） 提高了安全性</p>
+<p>（2） 提高了复用性</p>
+<p>（3） 隐藏了实现细节</p>
+<p>4.封装的案例:</p>
+<pre class=" language-java"><code class="language-java"><span class="token comment" spellcheck="true">/* 文件名: EncapTest.java */</span>
+
+<span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">EncapTest</span><span class="token punctuation">{</span>
+
+
+
+   <span class="token keyword">private</span> String name<span class="token punctuation">;</span>
+
+   <span class="token keyword">private</span> String idNum<span class="token punctuation">;</span>
+
+   <span class="token keyword">private</span> <span class="token keyword">int</span> age<span class="token punctuation">;</span>
+
+
+
+   <span class="token keyword">public</span> <span class="token keyword">int</span> <span class="token function">getAge</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+
+​      <span class="token keyword">return</span> age<span class="token punctuation">;</span>
+
+   <span class="token punctuation">}</span>
+
+
+
+   <span class="token keyword">public</span> String <span class="token function">getName</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+
+​      <span class="token keyword">return</span> name<span class="token punctuation">;</span>
+
+   <span class="token punctuation">}</span>
+
+
+
+   <span class="token keyword">public</span> String <span class="token function">getIdNum</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+
+​      <span class="token keyword">return</span> idNum<span class="token punctuation">;</span>
+
+   <span class="token punctuation">}</span>
+
+
+
+   <span class="token keyword">public</span> <span class="token keyword">void</span> <span class="token function">setAge</span><span class="token punctuation">(</span> <span class="token keyword">int</span> newAge<span class="token punctuation">)</span><span class="token punctuation">{</span>
+
+​      age <span class="token operator">=</span> newAge<span class="token punctuation">;</span>
+
+   <span class="token punctuation">}</span>
+
+
+
+   <span class="token keyword">public</span> <span class="token keyword">void</span> <span class="token function">setName</span><span class="token punctuation">(</span>String newName<span class="token punctuation">)</span><span class="token punctuation">{</span>
+
+​      name <span class="token operator">=</span> newName<span class="token punctuation">;</span>
+
+   <span class="token punctuation">}</span>
+
+
+
+   <span class="token keyword">public</span> <span class="token keyword">void</span> <span class="token function">setIdNum</span><span class="token punctuation">(</span> String newId<span class="token punctuation">)</span><span class="token punctuation">{</span>
+
+​      idNum <span class="token operator">=</span> newId<span class="token punctuation">;</span>
+
+   <span class="token punctuation">}</span>
+
+<span class="token punctuation">}</span>
+
+<span class="token comment" spellcheck="true">/* F文件名 : RunEncap.java */</span>
+
+<span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">RunEncap</span><span class="token punctuation">{</span>
+
+   <span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token keyword">void</span> <span class="token function">main</span><span class="token punctuation">(</span>String args<span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+
+​      EncapTest encap <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">EncapTest</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+​      encap<span class="token punctuation">.</span><span class="token function">setName</span><span class="token punctuation">(</span><span class="token string">"James"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+​      encap<span class="token punctuation">.</span><span class="token function">setAge</span><span class="token punctuation">(</span><span class="token number">20</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+​      encap<span class="token punctuation">.</span><span class="token function">setIdNum</span><span class="token punctuation">(</span><span class="token string">"12343ms"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+
+
+​      System<span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">print</span><span class="token punctuation">(</span><span class="token string">"Name : "</span> <span class="token operator">+</span> encap<span class="token punctuation">.</span><span class="token function">getName</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">+</span> 
+
+​                             <span class="token string">" Age : "</span><span class="token operator">+</span> encap<span class="token punctuation">.</span><span class="token function">getAge</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+​    <span class="token punctuation">}</span>
+
+<span class="token punctuation">}</span>
+
+</code></pre>
+<p>5.修饰符</p>
+<p>​      public—&gt;公共的：在一个项目中都可以访问，权限最高</p>
+<p>​      private—&gt;私有的：只能在本类中进行访问，权限最低</p>
+<p>​      protected—&gt;安全的，受保护的：同一个包能进行访问，继承中之类可以访问父类</p>
+<p>​      default—&gt;默认的：同一个包能访问</p>
+<h2 id="第四章-面向对象三大特征—继承"><a href="#第四章-面向对象三大特征—继承" class="headerlink" title="第四章 面向对象三大特征—继承"></a>第四章 面向对象三大特征—继承</h2><p>1.继承的概念：父亲儿子</p>
+<p>2.继承的关键字：extends</p>
+<p>3.继承的好处：</p>
+<p>   （1）提高了代码的重用性</p>
+<p>   （2）提高了代码的可扩展性</p>
+<p>3.继承的语法：</p>
+<pre><code>     public class 类名  extends 父类{    代码块   }</code></pre><p>4.继承的使用与说明：</p>
+<p>   （1）使用：</p>
+<p>可以直接调用父类的非私有属性和方法</p>
+<p>​         可以用super.方法     super.属性</p>
+<p>   （2）说明： Java中的继承只能单继承，</p>
+<p>5.父类构造方法调用：super();</p>
+<p>​     //super指代的是父类对象，this指代的是本类对象</p>
+<p>​      调用父类的构造方法必须在之类中调用</p>
+<p>​      必须实在之类构造方法的第一行代码</p>
+<p>6.继承中的构造方法要点：</p>
+<p>   （1）执行子类的构造方法，会默认执行父类的无参构造方法</p>
+<p>  （2）当子类没有无参构造方法，但是有有参构造方法,子类的构造方法需手动添加</p>
+<p>  （3）父类没有定义无参构造方法，定义了带参构造方法，子类的构造方法必须调用父类的带参构造方法。</p>
+<p>  （4）无论是super还是this调用构造方法，只能放在第一行，构造方法只能调用一个</p>
+<p>  （5）构造方法只能在构造方法中调用</p>
+<p>7.重写@Override</p>
+<p>​      必须继承</p>
+<p>​      方法名一致，参数个数，顺序，类型全部一致</p>
+<p>8.重载与重写的区别：</p>
+<p>重载:一定发生在同一类中，方法名相同，参数不同（类型不同，数量不同）</p>
+<p>重写：一定发生在父类和子类中，方法名相同，参数相同，方法体不同</p>
+<h3 id=""><a href="#" class="headerlink" title=""></a></h3><h2 id="第五章-面向对象—多态"><a href="#第五章-面向对象—多态" class="headerlink" title="第五章 面向对象—多态"></a>第五章 面向对象—多态</h2><p>1.多态的概念：不同对象对同一消息产生不同的响应。</p>
+<p>2.多态的必要条件</p>
+<p>   （1）继承</p>
+<p>   （2）重写</p>
+<p>   （3）父类引用指向子类对象（向上转型）</p>
+<p>3.多态的优点：</p>
+<p>   （1）消除类型之间的耦合关系</p>
+<p>   （2）可替换性</p>
+<p>   （3）可扩展性</p>
+<p>   （4）接口性</p>
+<p>   （5）灵活性</p>
+<p>   （6）简化性</p>
+<p>3.多态的使用</p>
+<p>   （1）第一个例子</p>
+<pre class=" language-java"><code class="language-java"> <span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">Father</span><span class="token punctuation">{</span>
+
+​         <span class="token keyword">public</span> <span class="token keyword">void</span> <span class="token function">cooking</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+
+​            System<span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">"米饭"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+​         <span class="token punctuation">}</span>
+
+​      <span class="token punctuation">}</span>
+
+​      <span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">Son</span> <span class="token keyword">extends</span> <span class="token class-name">Father</span><span class="token punctuation">{</span>
+
+​         <span class="token annotation punctuation">@Override</span>
+
+​         <span class="token keyword">public</span> <span class="token keyword">void</span> <span class="token function">cooking</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+
+​            System<span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">"熬粥"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+​         <span class="token punctuation">}</span>
+
+​      <span class="token punctuation">}</span>
+
+​      <span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">Test</span> <span class="token punctuation">{</span>
+
+​         <span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token keyword">void</span> <span class="token function">main</span><span class="token punctuation">(</span>String<span class="token punctuation">[</span><span class="token punctuation">]</span> args<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+
+​            Father son<span class="token operator">=</span><span class="token keyword">new</span> <span class="token class-name">Son</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+​            son<span class="token punctuation">.</span><span class="token function">cooking</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+​         <span class="token punctuation">}</span>
+
+​      <span class="token punctuation">}</span></code></pre>
+<p>   （2）第二个例子</p>
+<pre class=" language-java"><code class="language-java"> <span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">Test</span> <span class="token punctuation">{</span>
+
+​    <span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token keyword">void</span> <span class="token function">main</span><span class="token punctuation">(</span>String<span class="token punctuation">[</span><span class="token punctuation">]</span> args<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+
+​      <span class="token function">show</span><span class="token punctuation">(</span><span class="token keyword">new</span> <span class="token class-name">Cat</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>  <span class="token comment" spellcheck="true">// 以 Cat 对象调用 show 方法</span>
+
+​      <span class="token function">show</span><span class="token punctuation">(</span><span class="token keyword">new</span> <span class="token class-name">Dog</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>  <span class="token comment" spellcheck="true">// 以 Dog 对象调用 show 方法</span>
+
+​                
+
+​      Animal a <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Cat</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>  <span class="token comment" spellcheck="true">// 向上转型  </span>
+
+​      a<span class="token punctuation">.</span><span class="token function">eat</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>               <span class="token comment" spellcheck="true">// 调用的是 Cat 的 eat</span>
+
+​      Cat c <span class="token operator">=</span> <span class="token punctuation">(</span>Cat<span class="token punctuation">)</span>a<span class="token punctuation">;</span>        <span class="token comment" spellcheck="true">// 向下转型  </span>
+
+​      c<span class="token punctuation">.</span><span class="token function">work</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>        <span class="token comment" spellcheck="true">// 调用的是 Cat 的 work</span>
+
+  <span class="token punctuation">}</span>  
+
+​            
+
+​    <span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token keyword">void</span> <span class="token function">show</span><span class="token punctuation">(</span>Animal a<span class="token punctuation">)</span>  <span class="token punctuation">{</span>
+
+​      a<span class="token punctuation">.</span><span class="token function">eat</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>  
+
+​        <span class="token comment" spellcheck="true">// 类型判断</span>
+
+​        <span class="token keyword">if</span> <span class="token punctuation">(</span>a <span class="token keyword">instanceof</span> <span class="token class-name">Cat</span><span class="token punctuation">)</span>  <span class="token punctuation">{</span>  <span class="token comment" spellcheck="true">// 猫做的事情 </span>
+
+​            Cat c <span class="token operator">=</span> <span class="token punctuation">(</span>Cat<span class="token punctuation">)</span>a<span class="token punctuation">;</span>  
+
+​            c<span class="token punctuation">.</span><span class="token function">work</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>  
+
+​        <span class="token punctuation">}</span> <span class="token keyword">else</span> <span class="token keyword">if</span> <span class="token punctuation">(</span>a <span class="token keyword">instanceof</span> <span class="token class-name">Dog</span><span class="token punctuation">)</span> <span class="token punctuation">{</span> <span class="token comment" spellcheck="true">// 狗做的事情 </span>
+
+​            Dog c <span class="token operator">=</span> <span class="token punctuation">(</span>Dog<span class="token punctuation">)</span>a<span class="token punctuation">;</span>  
+
+​            c<span class="token punctuation">.</span><span class="token function">work</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>  
+
+​        <span class="token punctuation">}</span>  
+
+​    <span class="token punctuation">}</span>  
+
+<span class="token punctuation">}</span>
+
+
+
+<span class="token keyword">abstract</span> <span class="token keyword">class</span> <span class="token class-name">Animal</span> <span class="token punctuation">{</span>  
+
+​    <span class="token keyword">abstract</span> <span class="token keyword">void</span> <span class="token function">eat</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>  
+
+<span class="token punctuation">}</span>  
+
+
+
+<span class="token keyword">class</span> <span class="token class-name">Cat</span> <span class="token keyword">extends</span> <span class="token class-name">Animal</span> <span class="token punctuation">{</span>  
+
+​    <span class="token keyword">public</span> <span class="token keyword">void</span> <span class="token function">eat</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>  
+
+​        System<span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">"吃鱼"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>  
+
+​    <span class="token punctuation">}</span>  
+
+​    <span class="token keyword">public</span> <span class="token keyword">void</span> <span class="token function">work</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>  
+
+​        System<span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">"抓老鼠"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>  
+
+​    <span class="token punctuation">}</span>  
+
+<span class="token punctuation">}</span>  
+
+
+
+<span class="token keyword">class</span> <span class="token class-name">Dog</span> <span class="token keyword">extends</span> <span class="token class-name">Animal</span> <span class="token punctuation">{</span>  
+
+​    <span class="token keyword">public</span> <span class="token keyword">void</span> <span class="token function">eat</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>  
+
+​        System<span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">"吃骨头"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>  
+
+​    <span class="token punctuation">}</span>  
+
+​    <span class="token keyword">public</span> <span class="token keyword">void</span> <span class="token function">work</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>  
+
+​        System<span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">"看家"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>  
+
+​    <span class="token punctuation">}</span>  
+
+<span class="token punctuation">}</span></code></pre>
+<p> 4.向上转型（子类向父类的转换）  </p>
+<pre><code> 语法 ：
+
+​      &lt;父类型&gt;  &lt;引用变量名&gt; = new  &lt;子类型&gt;（）；
+
+​      例如：Animal an1=new Dog（）；</code></pre><p>5.向下转型（必须基于向上转型）</p>
+<pre><code>    例如：Son son=(Son)father;</code></pre><p>6.注意：</p>
+<p>   （1）属性无多态这个属性，只看“=”左边的类型</p>
+<p>   （2）编译时，能“.”出来，能调用的看“=”左边</p>
+<p>7.Instanceof运算符：</p>
+<p>8.异常的处理（Try-catch-finally块）：</p>
+<pre><code>语法：
+
+​      Try{
+
+​         代码块；
+
+}catch（Exception  e）{
+
+   代码块；
+
+}finally{
+
+   代码块；
+
+}</code></pre><p>注意：</p>
+<p>（1） catch（Exception  e）一定放在所有catch块的最后</p>
+<p>（2） finally{}块里面的代码一定会执行</p>
+<p>结束的语句：</p>
+<pre><code>   （1）return；
+
+   （2）system.exit（0）;</code></pre><h3 id="-1"><a href="#-1" class="headerlink" title=""></a></h3><h2 id="第六章-抽象"><a href="#第六章-抽象" class="headerlink" title="第六章 抽象"></a>第六章 抽象</h2><p>1.抽象的概念:当一个类没有足够的信息去描述一个具体的对象，那么我们称之为抽象类。</p>
+<p>2.抽象的关键字</p>
+<p>​      abstract</p>
+<p>​      可以修饰类，可以修饰方法</p>
+<p>3.抽象类的作用：</p>
+<p>   （1）抽象类是用来继承的</p>
+<p>   （2）抽象类无法new出对象</p>
+<p>4.抽象的用法</p>
+<pre><code>     //抽象类
+
+​      public abstract class 类名{
+
+​         //抽象方法没有方法体
+
+​         public abstract void 方法名();   
+
+​      }
+     //当父类是抽象类的时候，子类必须重写父类里面的抽象方法</code></pre><p>​     </p>
+<p>5.final修饰符：最终的</p>
+<p>   修饰变量，修饰方法，修饰类</p>
+<p>   （1）.当修饰变量时，变量转换成常量，常量的值不能改变</p>
+<p>​      final int a=18;//a=18;不能改变,必须给一个初始值</p>
+<p>   （2）.当修饰方法时，该方法不能被重写</p>
+<p>   （3）.当修饰类时，该类不能被继承</p>
+<h3 id="-2"><a href="#-2" class="headerlink" title=""></a></h3><h2 id="第七章-接口"><a href="#第七章-接口" class="headerlink" title="第七章 接口"></a>第七章 接口</h2><p>为什么要用接口？：因为JAVA只支持单继承。</p>
+<ol>
+<li>接口的概念</li>
+</ol>
+<p>2.接口的关键字</p>
+<p>​      interface</p>
+<p>3.接口的语法</p>
+<pre><code>      public interface 接口名{}
+
+​      File---&gt;new---&gt;interface//创建接口</code></pre><p>4.接口的用法</p>
+<pre><code>      实现接口的关键字  implements
+
+​      public interface 接口名{
+
+​         //接口是纯抽象类
+
+​         //接口里面的方法都是抽象方法
+
+​         void setData();
+
+​      }
+
+​      public class Play implements 接口名{
+
+​         @Override
+
+​         void setData(){
+
+​         }
+
+​      }
+
+​      public class Test {
+
+​         public static void main(String[] args) {
+
+​            Play play=new Play();
+
+​            play.setData();
+
+​         }
+
+​      }
+
+​      注意接口可以进行多继承
+
+​      public interface 接口名 extends 接口名，接口名{}
+
+​      一般用法
+
+​      public class 类名 extends 父类 implements 接口，接口{}</code></pre><p>多态与接口的区别：</p>
+<p>（1） 多态：难</p>
+<p>（2） 接口：简单，不能随意定义属性和方法，只能定义抽象方法，并且实现对口必须重写。</p>
+<h3 id="-3"><a href="#-3" class="headerlink" title=""></a></h3><h2 id="第八章-集合框架"><a href="#第八章-集合框架" class="headerlink" title="第八章 集合框架"></a>第八章 集合框架</h2><p>1.ArrayList</p>
+<p>  1.用法</p>
+<pre><code>     ArrayList list=new ArrayList();
+
+    list.add();//添加数据
+
+    list.get();//获取数据</code></pre><p>2.Map的用法：</p>
+<pre><code>       Map map=new HasMap();
+
+​      map.put(key,value);//key不能重复
+
+​      map.get(key);//获取key对象的value</code></pre><p>3.泛型</p>
+<pre><code>      ArrayList&lt;String&gt; list=new ArrayList&gt;&lt;String&gt;();
+
+      Map&lt;String,String&gt; map=new HasMap&lt;String,String&gt;();
+
+      ArrayList&lt;Map&lt;String,String&gt;&gt; list=new ArrayList&gt;&lt;Map&lt;String,String&gt;&gt;();</code></pre>
             </div>
             <hr/>
 
@@ -497,7 +922,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="git@github.com:wanghefan/wanghefan.github.io.git/2019/10/17/hello-world/">git@github.com:wanghefan/wanghefan.github.io.git/2019/10/17/hello-world/</a>
+                    <a href="git@github.com:wanghefan/wanghefan.github.io.git/2019/10/11/java-zhi-shi-dian-zong-jie/">git@github.com:wanghefan/wanghefan.github.io.git/2019/10/11/java-zhi-shi-dian-zong-jie/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -699,10 +1124,9 @@
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="far fa-dot-circle"></i>&nbsp;本篇
-            </div>
+                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
                 <a href="/2019/10/17/hello-world/">
                     <div class="card-image">
@@ -720,9 +1144,9 @@
                         
                     </div>
                     <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2019-10-17
-                            </span>
+                        <span class="publish-date">
+                            <i class="far fa-clock fa-fw icon-date"></i>2019-10-17
+                        </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-user fa-fw"></i>
@@ -731,7 +1155,6 @@
                         </span>
                     </div>
                 </div>
-
                 
             </div>
         </div>
@@ -739,7 +1162,7 @@
         
         <div class="article col s12 m6" data-aos="fade-up">
             <div class="article-badge right-badge text-color">
-                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
+                本篇&nbsp;<i class="far fa-dot-circle"></i>
             </div>
             <div class="card">
                 <a href="/2019/10/11/java-zhi-shi-dian-zong-jie/">
@@ -773,6 +1196,7 @@
                         </span>
                     </div>
                 </div>
+
                 
             </div>
         </div>

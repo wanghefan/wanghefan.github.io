@@ -1,43 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>wk</title>
+  <title>wang</title>
   
-  <subtitle>你是傻逼</subtitle>
+  <subtitle>欢迎来到我的世界！</subtitle>
   <link href="/atom.xml" rel="self"/>
   
   <link href="git@github.com:wanghefan/wanghefan.github.io.git/"/>
-  <updated>2019-10-17T12:50:47.448Z</updated>
+  <updated>2019-10-30T09:35:09.529Z</updated>
   <id>git@github.com:wanghefan/wanghefan.github.io.git/</id>
   
   <author>
-    <name>wk</name>
+    <name>wang</name>
     
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>Hello World</title>
-    <link href="git@github.com:wanghefan/wanghefan.github.io.git/2019/10/17/hello-world/"/>
-    <id>git@github.com:wanghefan/wanghefan.github.io.git/2019/10/17/hello-world/</id>
-    <published>2019-10-17T12:50:47.448Z</published>
-    <updated>2019-10-17T12:50:47.448Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a
-        
-      
-    
-    </summary>
-    
-    
-    
-  </entry>
   
   <entry>
     <title>JAVA知识点总结</title>

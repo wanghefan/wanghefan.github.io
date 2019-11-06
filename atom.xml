@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="git@github.com:wanghefan/wanghefan.github.io.git/"/>
-  <updated>2019-10-30T09:35:09.529Z</updated>
+  <updated>2019-11-06T05:29:25.537Z</updated>
   <id>git@github.com:wanghefan/wanghefan.github.io.git/</id>
   
   <author>
@@ -15,6 +15,52 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Jdk环境变量配置</title>
+    <link href="git@github.com:wanghefan/wanghefan.github.io.git/2019/10/30/jdk-huan-jing-bian-liang-pei-zhi/"/>
+    <id>git@github.com:wanghefan/wanghefan.github.io.git/2019/10/30/jdk-huan-jing-bian-liang-pei-zhi/</id>
+    <published>2019-10-30T10:27:27.000Z</published>
+    <updated>2019-11-06T05:29:25.537Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;JDK-开发环境配置&quot;&gt;&lt;a href=&quot;#JDK-开发环境配置&quot; class=&quot;headerlink&quot; title=&quot;JDK 开发环境配置&quot;&gt;&lt;/a&gt;JDK
+        
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>安卓开发环境搭配</title>
+    <link href="git@github.com:wanghefan/wanghefan.github.io.git/2019/10/30/an-zhuo-kai-fa-huan-jing-da-pei/"/>
+    <id>git@github.com:wanghefan/wanghefan.github.io.git/2019/10/30/an-zhuo-kai-fa-huan-jing-da-pei/</id>
+    <published>2019-10-30T09:50:01.000Z</published>
+    <updated>2019-11-06T05:28:27.628Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;1-2-开发环境搭建&quot;&gt;&lt;a href=&quot;#1-2-开发环境搭建&quot; class=&quot;headerlink&quot; title=&quot;1.2 开发环境搭建&quot;&gt;&lt;/a&gt;1.2 开发环境搭建&lt;/h2&gt;&lt;h3 id=&quot;分类-Android-基础入门教程&quot;&gt;&lt;a
+        
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
   
   <entry>
     <title>JAVA知识点总结</title>

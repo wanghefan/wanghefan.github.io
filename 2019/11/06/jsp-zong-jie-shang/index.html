@@ -4,9 +4,9 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="安卓开发环境搭配, wang">
-    <meta name="description" content="1.2 开发环境搭建分类 Android 基础入门教程
-现在主流的Android开发环境有: ①Eclipse + ADT + SDK ②Android Studio + SDK ③IntelliJ IDEA + SDK 现在国内大部分开发">
+    <meta name="keywords" content="JSP总结上, wang">
+    <meta name="description" content="JSP总结上JSP 定义：​    1)Java Server Page, Java EE 组件，本质上是 Servlet。
+​    2)运行在 Web Container.接收 Http Request,生成 Http Response">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -14,7 +14,7 @@
     <meta name="format-detection" content="telephone=no">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <title>安卓开发环境搭配 | wang</title>
+    <title>JSP总结上 | wang</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -305,13 +305,13 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/15.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/21.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
                     <div class="description center-align post-title">
-                        安卓开发环境搭配
+                        JSP总结上
                     </div>
                 </div>
             </div>
@@ -434,21 +434,21 @@
             <div class="post-info">
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2019-10-30
+                    2019-11-06
                 </div>
 
                 
                     
                     <div class="info-break-policy">
                         <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                        1.1k
+                        1.7k
                     </div>
                     
 
                     
                     <div class="info-break-policy">
                         <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                        3 分
+                        6 分
                     </div>
                     
                 
@@ -464,54 +464,111 @@
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h2 id="1-2-开发环境搭建"><a href="#1-2-开发环境搭建" class="headerlink" title="1.2 开发环境搭建"></a>1.2 开发环境搭建</h2><h3 id="分类-Android-基础入门教程"><a href="#分类-Android-基础入门教程" class="headerlink" title="分类 Android 基础入门教程"></a><em>分类</em> <a href="https://www.runoob.com/w3cnote_genre/android" target="_blank" rel="noopener">Android 基础入门教程</a></h3><blockquote>
-<p>现在主流的Android开发环境有: ①Eclipse + ADT + SDK ②Android Studio + SDK ③IntelliJ IDEA + SDK 现在国内大部分开发人员还是使用的Eclipse，而谷歌宣布不再更新ADT后，并且官网也去掉了集成Android开发环境的Eclipse下载链接，各种现象都表示开发者最后都终将过渡到Android Studio，当然这段过渡时间会很长，但如果你是刚学Android的话建议直接冲Android Studio着手；而且很多优秀的开源项目都是基于Android Studio！当然，在本教程中对两种开发环境都会进行一个介绍，用哪个取决与你自己~ 还有一个IntelliJ，和Android Studio差不多的，并不对此进行讲解！</p>
-</blockquote>
-<h2 id="1-JDK安装与配置"><a href="#1-JDK安装与配置" class="headerlink" title="1.JDK安装与配置"></a>1.JDK安装与配置</h2><blockquote>
-<ul>
-<li><strong>Step 1:下载JDK</strong> 可以到官网进行下载：<a href="http://www.oracle.com/technetwork/java/javase/downloads/index-jsp-138363.html" target="_blank" rel="noopener">Jdk官方下载</a> 也可到笔者网盘下载：<a href="http://pan.baidu.com/s/1o6LxZHC" target="_blank" rel="noopener">笔者网盘</a> PS:这个随便下一个都可以，关系不大，32位的只能下32位哦！</li>
-<li><strong>Step 2:JDK安装</strong> 傻瓜式的下一步即可！</li>
-<li><strong>Step 3:环境变量的配置</strong> 配置环境变量是为了方便我们一些命令行的操作，后续会用到！ <strong>右键我的电脑——&gt;高级——&gt;环境变量</strong> <img src="https://www.runoob.com/wp-content/uploads/2015/06/39936377.jpg" alt="Java环境变量配置1"> <strong>新建JAVA_HOME</strong> <img src="https://www.runoob.com/wp-content/uploads/2015/06/12299725.jpg" alt="新建JAVA_HOME"> <strong>修改PATH变量，别把原本的东西删掉！！！！</strong> <img src="https://www.runoob.com/wp-content/uploads/2015/06/80572641.jpg" alt="修改PATH变量"> <strong>新建CLASSPATH</strong> <img src="https://www.runoob.com/wp-content/uploads/2015/06/87557685.jpg" alt="新建CLASSPATH"> <strong>验证环境是否配置完成</strong> 打开电脑的cmd(命令行)，win键 + R输入cmd，然后在命令行依次javac和java，出现如图效果表示配置完成： <img src="https://www.runoob.com/wp-content/uploads/2015/06/40813475.jpg" alt="此处输入图片的描述"></li>
-</ul>
-</blockquote>
-<hr>
-<h2 id="2-开发工具二选一"><a href="#2-开发工具二选一" class="headerlink" title="2.开发工具二选一"></a>2.开发工具二选一</h2><blockquote>
-<p>一开始也说了开发环境IDE的现状，另外前面忘记说一点:Android Studio是比较吃配置的，如果电脑不怎么好，建议还是先使用Eclipse进行Android开发，下面先说下我们熟悉IDE开发APP的流程，按照下述流程来熟悉IDE的使用：</p>
-<p><img src="https://www.runoob.com/wp-content/uploads/2015/06/62458334.jpg" alt="熟悉IDE开发APP的流程"></p>
-<p>然后下面两个选一个，开始我们的Android开发之路吧！</p>
-<p><strong>Eclipse + ADT + SDK：</strong> <strong>Android Studio + SDK：</strong></p>
-</blockquote>
-<hr>
-<h2 id="3-相关术语的解析"><a href="#3-相关术语的解析" class="headerlink" title="3.相关术语的解析"></a>3.相关术语的解析</h2><blockquote>
-<ol>
-<li><strong>Dalvik：</strong> Android特有的虚拟机,和JVM不同,Dalvik虚拟机非常适合在移动终端上使用!</li>
-<li><strong>AVD：</strong> (android virtual machine):安卓虚拟设备,就是安卓的模拟器</li>
-<li><strong>ADT：</strong> (android development tools)安卓开发工具</li>
-<li><strong>SDK：</strong>(software development kit)软件开发工具包,就是安卓系统,平台架构等的工具集合,如adb.exe</li>
-<li><strong>DDMS：</strong>(dalvik debug monitor service)安卓调试工具</li>
-<li><strong>adb：</strong>安卓调试桥,在sdk的platform-tools目录下,功能很多,命令行必备</li>
-<li><strong>DX工具：</strong>将.class转换成.dex文件</li>
-<li><strong>AAPT：</strong>(android asset packing tool),安卓资源打包工具</li>
-<li><strong>R.java文件：</strong>由aapt工具根据App中的资源文件自动生成,可以理解为资源字典</li>
-<li><strong>AndroidManifest.xml：</strong>app包名 + 组件声明 + 程序兼容的最低版本 + 所需权限等程序的配置文件</li>
-</ol>
-</blockquote>
-<hr>
-<p>后续内容对于初学者的你可能有点难度，但后面回头，你会发现这些东西很有用~ 看不懂的话，可以先跳过</p>
-<h2 id="4-ADB命令行的一些指令"><a href="#4-ADB命令行的一些指令" class="headerlink" title="4.ADB命令行的一些指令"></a>4.ADB命令行的一些指令</h2><blockquote>
-<p>执行ADB指令之前我们还需要为我们的SDK配置一下环境变量 <strong>Step 1:</strong>新建一个ANDROID_HOME的环境变量，把sdk根目录地址贴上去： <img src="https://www.runoob.com/wp-content/uploads/2015/06/4497768.jpg" alt="此处输入图片的描述"> <strong>Step 2:</strong>更新Path环境变量，在Paht开头加上：<strong>%ANDROID_HOME%\tools;</strong> 即可 配置完了，接下来就来学习指令了： <img src="https://www.runoob.com/wp-content/uploads/2015/06/95349283.jpg" alt="常用ADB指令"></p>
-</blockquote>
-<hr>
-<h2 id="5-APP程序打包与安装的流程："><a href="#5-APP程序打包与安装的流程：" class="headerlink" title="5.APP程序打包与安装的流程："></a>5.APP程序打包与安装的流程：</h2><blockquote>
-<p><img src="https://www.runoob.com/wp-content/uploads/2015/06/5918079.jpg" alt="APP程序打包与安装的流程"></p>
-</blockquote>
-<hr>
-<h2 id="6-APP的安装过程："><a href="#6-APP的安装过程：" class="headerlink" title="6.APP的安装过程："></a>6.APP的安装过程：</h2><blockquote>
-<p><img src="https://www.runoob.com/wp-content/uploads/2015/06/30239720.jpg" alt="APP的安装过程"></p>
-</blockquote>
-<h2 id="7-本节小结"><a href="#7-本节小结" class="headerlink" title="7.本节小结"></a>7.本节小结</h2><blockquote>
-<p>本节我们对Android开发IDE的现状进行了分析，建议初学者硬件条件允许的话，使用Android Studio来进行Android APP的开发，讲述了JDK的安装与配置，以及熟悉IDE的流程，一些关键名称的解析，ADB命令行的常用指令，最后还有程序的打包安装和安装过程的解析！经过这章相信大家对Android开发有了个简单了解，了解开发一个程序的流程，以及对应的项目目录结构！相信大家会抱怨模拟器AVD跑得很慢，下节会给大家介绍一个比真机还快的Android模拟器——Genymotion的安装使用！</p>
-</blockquote>
+                <h1 id="JSP总结上"><a href="#JSP总结上" class="headerlink" title="JSP总结上"></a>JSP总结上</h1><h4 id="JSP-定义："><a href="#JSP-定义：" class="headerlink" title="JSP 定义："></a>JSP 定义：</h4><p>​    1)Java Server Page, Java EE 组件，本质上是 Servlet。</p>
+<p>​    2)运行在 Web Container.接收 Http Request,生成 Http Response(默认协议是 Http 请求和响应) </p>
+<p>​    3)JSP 使得我们能够分离页面的静态 HTML 和动态部分——我们需要的技术。</p>
+<p>​    4)使页面可以混和html代码、Java代码以及JSP标签；允许访问组件</p>
+<h5 id="Servlet的缺陷-JSP出现的原因-："><a href="#Servlet的缺陷-JSP出现的原因-：" class="headerlink" title="Servlet的缺陷(JSP出现的原因)："></a>Servlet的缺陷(JSP出现的原因)：</h5><p>​    1)写静态页面必须部署后才能看到效果，很难控制页面的外观。</p>
+<p>​    2)从技术角度来说Servlet是Java代码和HTML静态代码的混合代码。</p>
+<p>​    3)从市场竞争角度来说，微软推出了ASP产品。</p>
+<h4 id="JSP的改进："><a href="#JSP的改进：" class="headerlink" title="JSP的改进："></a>JSP的改进：</h4><p>​    1)JSP是标签式的文本文件(Servlet是Java文件) </p>
+<p>​    2)JSP不需要编译(其实是由服务器监测JSP文件的变化，再将其翻译成 Servlet 代码) </p>
+<p>​      服务器对其进行编译并在第一次请求时创建一个Servlet实例。所以，第一次访问JSP页面时会后延迟</p>
+<p>​    3)JSP不用写配置文件</p>
+<p>​    4)JSP以静态代码为主，Java代码为辅。Servlet反之。</p>
+<p>​    5)是J2EE蓝图的一部分(Servlet、JSP以及EJB是J2EE的三大组件) </p>
+<p>​    JSP从本质上来说内核还是Servlet，但与Servlet不是替代关系而是一种互补的关系。</p>
+<p>​    JSP适合于写显示层的动态页面，而Servlet则适合写控制层的业务控制(页面转发)。</p>
+<p>​    JSP往纯标签方向发展，Servlet往纯代码方向发展，他们以Servlet内核(请求响应式的工作方式)往两个方向发展。</p>
+<h4 id="基本语法"><a href="#基本语法" class="headerlink" title="基本语法"></a>基本语法</h4><p>一、JSP的声明(statement) </p>
+<p>   用来定义在产生的类文件中的类的属性和方法(成员变量)。可声明类(即是内部类)。</p>
+<p>   由于servlet是工作在多线程环境下，所以尽量不要在service方法体外声明成员变量。</p>
+<p>   &lt;%!…..%&gt;  //声明时要加”!”，属于类成员，最先加载，可写于任何位置；不加则是脚本的局部变量，必须调用前写。</p>
+<p>   如：  &lt;%!String hello=”Hello, World!”;%&gt;  //变量的声明</p>
+<p>​        &lt;%=hello%&gt;   //变量的调用</p>
+<p>​        &lt;%! private int counter=0;  public int count(){ return ++counter;} %&gt; //函数的声明</p>
+<p>​        <h1>&lt;%=count()%&gt;</h1> //函数的调用</p>
+<h4 id="声明规则："><a href="#声明规则：" class="headerlink" title="声明规则："></a>声明规则：</h4><p>​    1) JSP中声明的变量和方法对应于Servlet中的实例方法和实例变量。这些将被同时请求该页面的所有用户所共享;</p>
+<p>​    2) 在使用变量或方法前须先定义(不是说声明变量的位置在页面中要处于使用变量的前面，而是指变量不声明不能使用);</p>
+<p>​    3) 声明的变量或方法的作用域为当前页面或包含的页面;</p>
+<p>​    4) 语句间以分号分隔。</p>
+<h3 id="二、JSP代码段-Scriptlet"><a href="#二、JSP代码段-Scriptlet" class="headerlink" title="二、JSP代码段(Scriptlet)"></a>二、JSP代码段(Scriptlet)</h3><p>​      &lt;% java代码 %&gt; </p>
+<p>   是一段可以在处理请求时间执行的Java代码。可以产生输出，也可以是一些流程控制语句。</p>
+<p>   在代码段中定义的变量为service方法中的局部变量。</p>
+<h5 id="1-jspService-中的局部代码："><a href="#1-jspService-中的局部代码：" class="headerlink" title="1._jspService()中的局部代码："></a>1._jspService()中的局部代码：</h5><p>​      &lt;%  System.out.println(“Hi,I like JSP.”); %&gt;   //在控制台打印出，网页上没显示</p>
+<p>​      &lt;%  out.println(“Hi,I like JSP.”); %&gt;          //打印在网页上</p>
+<p>​      &lt;%  Connection conn=DriverManager.getConnection();  Statement st=conn.createStatement();</p>
+<p>​        String sql=”select * from users”;               ResultSet rs=st.executeQuery(sql);</p>
+<p>​         //……</p>
+<p>​       %&gt;</p>
+<p>​    问：能否在JSP脚本里定义方法？</p>
+<p>​    答：不能！ //脚本相当于方法，不能在方法里定义方法</p>
+<p>​       &lt;%!public void helloworld(){}%&gt;  //可以声明方法</p>
+<p>​       &lt;% public void helloworld(){}%&gt;  //编译出错；脚本不能定义方法</p>
+<h5 id="2-比较"><a href="#2-比较" class="headerlink" title="2.比较:"></a>2.比较:</h5><p>​        &lt;%! int i=100;%&gt;     //成员变量</p>
+<p>​        &lt;%  int i=101;%&gt;     //_jspService()方法中的局部变量</p>
+<p>​        &lt;%=i%&gt;  //同一文件里，局部变量优先</p>
+<h5 id="3-脚本小程序规则："><a href="#3-脚本小程序规则：" class="headerlink" title="3.脚本小程序规则："></a>3.脚本小程序规则：</h5><p>​     1) 你使用的脚本语言决定了脚本小程序的规则;</p>
+<p>​     2) 语句间以分号分隔;</p>
+<p>​     3) 可以使用默认的对象、import进的类、declaration声明的方法和对象以及useBean tag中声明的对象。</p>
+<h3 id="三、JSP表达式-expression"><a href="#三、JSP表达式-expression" class="headerlink" title="三、JSP表达式(expression)"></a>三、JSP表达式(expression)</h3><p>​       &lt;%=……%&gt;   // “=”号</p>
+<p>   在JSP请求处理阶段计算他的值，表达式生成的代码是Service方法中的一个代码片断。</p>
+<p>   JSP对于声明的处理：1、计算表达式的值</p>
+<p>​                   2、将值转换成String</p>
+<p>​                   3、用out.println发送标签；把数据输出至页面的当前位置</p>
+<p>​      &lt;%=”Hello,JSP world!”%&gt;     //out.println(“Hello,JSP world”);</p>
+<p>​      &lt;%=name%&gt;                   //&lt;%!String name=”GiGi”;%&gt; out.println(name);</p>
+<p>​      &lt;%=new java.util.Date()%&gt;   //out.println(new java.util.Date());</p>
+<p>   表达式规则： </p>
+<p>​     1) 你使用的脚本语言决定了脚本小程序的规则;</p>
+<p>​     2) 执行的顺序为从左到右;</p>
+<p>​     3) 分号不能用于表达式。</p>
+<h3 id="四、JSP指令-direction"><a href="#四、JSP指令-direction" class="headerlink" title="四、JSP指令(direction)"></a>四、JSP指令(direction)</h3><p>   指令用于从JSP发送信息到容器上。用来设置全局变量，声明类，要实现的方法和输出内容等。</p>
+<p>   指令在JSP整个文件内有效。它为翻译阶段提供了全局信息。</p>
+<p>​       &lt;%@……%&gt;  // “@”符号</p>
+<p>   指令包括：page、include、taglib</p>
+<h5 id="1-page指令"><a href="#1-page指令" class="headerlink" title="1.page指令"></a>1.page指令</h5><p>​    </p>
+<pre class=" language-jsp"><code class="language-jsp">    import、session、errorPage、isThreadSafe</code></pre>
+<p>​     页面的语言、内容类型、字符集、页面编码</p>
+<p>​        </p>
+<pre class=" language-jsp"><code class="language-jsp"><%@page language="java" contentType="text/html; charset=gbk" pageEncoding="gbk"%></code></pre>
+<p>​        language：java唯一值，表示脚本中使用的编程语言</p>
+<p>​        contentType：设置了内容的类型和静态页面的编码 (告诉浏览器以什么编码显示) </p>
+<p>​        pageEncoding：页面本身的编码格式 (写页面时用的编码格式) </p>
+<p>​        上面的代码等价于servlet里： response.setContentType(“text/html; charset=gbk”);</p>
+<p>​     import：导入其他的包和类； 其中，JSP默认导入的包是java.lang.*</p>
+<pre class=" language-jsp"><code class="language-jsp">     <%@page import="java.util.Date"%> //具体的包和类</code></pre>
+<p>​      </p>
+<pre class=" language-jsp"><code class="language-jsp">  <%@page import="java.sql.*"%>     //包下的所有类</code></pre>
+<p>​      </p>
+<pre class=" language-jsp"><code class="language-jsp">  <%@page import="java.util.*, java.io.*, java.net.*"%> //连写，逗号分隔</code></pre>
+<p>​     Session：指示当前的jsp是否参与会话 (默认为true； 参与会话) </p>
+<p>​        通过指令使当前页面与session不可会话：    &lt;%@page session=”false”%&gt; </p>
+<p>​        session=”true”时，可用内建对象session直接访问会话，例如：</p>
+<p>​        </p>
+<pre class=" language-jsp"><code class="language-jsp"><%  session.setAttribute("username","maxwell");
+
+​            String name = (String)session.getAttribute("username"); %>
+
+​        <%=name%></code></pre>
+<p>​     errorPage：</p>
+<p>​        isErrorPage：Jsp页面中出现异常的处理方式</p>
+<p>​        对于有可能出现异常的页面： </p>
+<p>​            &lt;%@page errorPage=”error.jsp”%&gt; //异常时会跳转到处理异常的页面；这页面自己写</p>
+<p>​            在有可能异常的地方打印原因：  throw new Exception(“数据库连接出错”);</p>
+<p>​        对于处理异常的页面(error.jsp)里：</p>
+<p>​           </p>
+<pre class=" language-jsp"><code class="language-jsp"> <%@page isErrorPage="true"%>，其中使用<%=exception.getMessage() %>把异常信息打印出来
+
+​     isThreadSafe——此属性已经不再使用(已废弃) </code></pre>
+<p>​        当前Jsp页面是否线程安全    default—&gt;true</p>
+<p>​      </p>
+<pre class=" language-jsp"><code class="language-jsp">  <%@page isThreadSafe="true"%>  //普通的Servlet,可以并发处理用户请求</code></pre>
+<p>​       </p>
+<pre class=" language-jsp"><code class="language-jsp"> <%@page isThreadSafe="false"%> //相当于Servlet实现了SingleThreadModel</code></pre>
+<h5 id="2-include指令"><a href="#2-include指令" class="headerlink" title="2.include指令"></a>2.include指令</h5><p>​        把目标页面的内容包含到当前页面,产生页面叠加以后的输出效果 //相当于将两个页面合并；编译时就包含进来</p>
+<p>​        &lt;%@include file=”foot.jsp”%&gt; //可插入任意位置</p>
+<h5 id="3-taglib指令"><a href="#3-taglib指令" class="headerlink" title="3.taglib指令"></a>3.taglib指令</h5><p>​        留在JSTL里讲解。</p>
 
             </div>
             <hr/>
@@ -537,7 +594,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="git@github.com:wanghefan/wanghefan.github.io.git/2019/10/30/an-zhuo-kai-fa-huan-jing-da-pei/">git@github.com:wanghefan/wanghefan.github.io.git/2019/10/30/an-zhuo-kai-fa-huan-jing-da-pei/</a>
+                    <a href="git@github.com:wanghefan/wanghefan.github.io.git/2019/11/06/jsp-zong-jie-shang/">git@github.com:wanghefan/wanghefan.github.io.git/2019/11/06/jsp-zong-jie-shang/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -739,36 +796,31 @@
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
+                <i class="far fa-dot-circle"></i>&nbsp;本篇
+            </div>
             <div class="card">
-                <a href="/2019/10/30/jdk-huan-jing-bian-liang-pei-zhi/">
+                <a href="/2019/11/06/jsp-zong-jie-shang/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/19.jpg" class="responsive-img" alt="Jdk环境变量配置">
+                        <img src="/medias/featureimages/21.jpg" class="responsive-img" alt="JSP总结上">
                         
-                        <span class="card-title">Jdk环境变量配置</span>
+                        <span class="card-title">JSP总结上</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            JDK 开发环境配置在本章节中我们将为大家介绍如何搭建Java开发环境。
-
-Windows 上安装开发环境
-Linux 上安装开发环境
-安装 Eclipse 运行 Java
-
-
-window系统安装java下载JDK首先我们需要下载java
+                            JSP总结上JSP 定义：​    1)Java Server Page, Java EE 组件，本质上是 Servlet。
+​    2)运行在 Web Container.接收 Http Request,生成 Http Response
                         
                     </div>
                     <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2019-10-30
-                        </span>
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2019-11-06
+                            </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-user fa-fw"></i>
@@ -777,6 +829,7 @@ window系统安装java下载JDK首先我们需要下载java
                         </span>
                     </div>
                 </div>
+
                 
             </div>
         </div>
@@ -787,28 +840,25 @@ window系统安装java下载JDK首先我们需要下载java
                 下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2019/10/11/java-zhi-shi-dian-zong-jie/">
+                <a href="/2019/11/06/jsp-zhong-de-request-session-response-dui-xiang-yi-ji-qi-ta-dui-xiang/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/14.jpg" class="responsive-img" alt="JAVA知识点总结">
+                        <img src="/medias/featureimages/7.jpg" class="responsive-img" alt="JSP中的request,session,response对象以及其他对象">
                         
-                        <span class="card-title">JAVA知识点总结</span>
+                        <span class="card-title">JSP中的request,session,response对象以及其他对象</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            第二章面向对象1.面向对象：面向对象思想就是把一个项目，一件事情分成更小的项目，每一部分负责什么功能，最后再有这些部分组合成一个整体。
-2.类的创建
-    语法：public class 类名{}
-
-​      File--->new-
+                            JSP中的request,session,response对象以及其他对象1)pageContext对象：​     每一个jsp页面对应着一个pageContext。一般地，在实际应用中，主要是使用它来存取属性。
+​     另外，pag
                         
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2019-10-11
+                                <i class="far fa-clock fa-fw icon-date"></i>2019-11-06
                             </span>
                         <span class="publish-author">
                             

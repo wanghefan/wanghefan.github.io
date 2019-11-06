@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="git@github.com:wanghefan/wanghefan.github.io.git/"/>
-  <updated>2019-11-06T05:29:25.537Z</updated>
+  <updated>2019-11-06T05:30:57.405Z</updated>
   <id>git@github.com:wanghefan/wanghefan.github.io.git/</id>
   
   <author>
@@ -15,6 +15,52 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>JSP总结上</title>
+    <link href="git@github.com:wanghefan/wanghefan.github.io.git/2019/11/06/jsp-zong-jie-shang/"/>
+    <id>git@github.com:wanghefan/wanghefan.github.io.git/2019/11/06/jsp-zong-jie-shang/</id>
+    <published>2019-11-06T05:30:57.290Z</published>
+    <updated>2019-11-06T05:30:57.405Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;JSP总结上&quot;&gt;&lt;a href=&quot;#JSP总结上&quot; class=&quot;headerlink&quot; title=&quot;JSP总结上&quot;&gt;&lt;/a&gt;JSP总结上&lt;/h1&gt;&lt;h4 id=&quot;JSP-定义：&quot;&gt;&lt;a href=&quot;#JSP-定义：&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>JSP中的request,session,response对象以及其他对象</title>
+    <link href="git@github.com:wanghefan/wanghefan.github.io.git/2019/11/06/jsp-zhong-de-request-session-response-dui-xiang-yi-ji-qi-ta-dui-xiang/"/>
+    <id>git@github.com:wanghefan/wanghefan.github.io.git/2019/11/06/jsp-zhong-de-request-session-response-dui-xiang-yi-ji-qi-ta-dui-xiang/</id>
+    <published>2019-11-06T05:30:47.012Z</published>
+    <updated>2019-11-06T05:30:47.177Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;JSP中的request-session-response对象以及其他对象&quot;&gt;&lt;a href=&quot;#JSP中的request-session-response对象以及其他对象&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
   
   <entry>
     <title>Jdk环境变量配置</title>
